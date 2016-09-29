@@ -36,6 +36,6 @@ LOCAL_STATIC_LIBRARIES 	:= minizip freeimage freetype android_support
 include $(BUILD_STATIC_LIBRARY)
 
 $(call import-module, ogre/FreeImage)
+$(call import-module, ogre/minizip)
 $(call import-module, ogre/freetype)
 $(call import-module, android/support)
-$(call import-module, minizip)
